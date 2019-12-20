@@ -1,0 +1,147 @@
+{
+    "name": "Weather Underground",
+    "description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/966-weather-underground.jpg",
+    "tags": [
+        "broadcasts",
+        "general data",
+        "have api",
+        "have swagger",
+        "pedestal",
+        "service api",
+        "weather"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/weather-underground\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Weather Underground API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/966-weather-underground.jpg",
+            "humanURL": "http:\/\/wunderground.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/weather-underground-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/weather-underground-api-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Weather Underground",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/966-weather-underground.jpg",
+            "humanURL": "http:\/\/wunderground.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/weather-underground.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/weather-underground-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Application Gallery",
+            "url": "http:\/\/www.wunderground.com\/weather\/api\/d\/featured_applications.html"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/weather-underground"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/weather-underground"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.wunderground.com\/weather\/api"
+        },
+        {
+            "type": "Email",
+            "url": "help@wunderground.com"
+        },
+        {
+            "type": "Email",
+            "url": "press@wunderground.com"
+        },
+        {
+            "type": "Email",
+            "url": "ademail@wunderground.com"
+        },
+        {
+            "type": "Email",
+            "url": "wuhelp@wunderground.com"
+        },
+        {
+            "type": "Forums",
+            "url": "http:\/\/www.wunderground.com\/weather\/api\/d\/community.html"
+        },
+        {
+            "type": "Knowledgebase",
+            "url": "http:\/\/help.wunderground.com\/knowledgebase"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/966-2019-09-04-01-14-39.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/966-2019-09-04-01-15-54.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/966-2019-09-04-03-45-56.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/966-2019-09-02-21-41-14.json"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/www.wunderground.com\/weather\/api\/d\/pricing.html"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/www.wunderground.com\/members\/tos.asp#privacy"
+        },
+        {
+            "type": "Registration",
+            "url": "http:\/\/www.wunderground.com\/weather\/api\/d\/login.html"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/www.wunderground.com\/members\/tos.asp"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/wunderground"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/weatherapi"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.wunderground.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/wunderground.com"
+        }
+    ]
+}
