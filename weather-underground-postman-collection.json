@@ -1,0 +1,1281 @@
+{
+    "id": "75c212e0dfb1794efe1b7e87ffb1e613",
+    "name": "Weather Underground",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "241c0ce84782e5ff1296bb401e78c55e",
+            "name": "Get Key Geolookup Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the geographic attributes of San Francisco CA.    Use {2 letter state code} \/    {City Name}",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "8ba76349f6bb9eae5b73919f714b8ee3",
+            "name": "Get Key Geolookup Q France Paris",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/France\/Paris.json",
+            "description": "This example will return the geographic attributes of Paris, France. Use {Full Country Name} \/ {City Name}",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "country",
+                    "description": "The country",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "3095f76a71029bdaa459680dfa8005ed",
+            "name": "Get Key Geolookup Q Autoip",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/autoip.json",
+            "description": "This example will return the geographic attributes associated with the IP address location of the user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9947aebadc00624d0acc2105b3c2123",
+            "name": "Get Key Geolookup Q 94107",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/94107.json",
+            "description": "This example will return the geographic attributes of zip code 94107",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "zip_code",
+                    "description": "The zip code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "83b72cd21f7c00203005f947dfaf0f58",
+            "name": "Get Key Geolookup Q Sfo",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/SFO.json",
+            "description": "This example will return the geographic attributes of San Francisco International Airport (Airport Code: SFO)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "074aff711f3f6c73f4bfc645073d386b",
+            "name": "Get Key Geolookup Q 37.776289, 122.395234",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/37.776289,-122.395234.json",
+            "description": "This example will return the the geographic attributes of Latitude 37.776289 N, Longitude 122.395234 W",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "latitude",
+                    "description": "The latitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "longitude",
+                    "description": "The longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "a26b8865c8f6043ba283978535d681dc",
+            "name": "Get Key Conditions Q Pws Kcatahoe2",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/q\/pws:KCATAHOE2.json",
+            "description": "This example will return the the current weather conditions at the Personal Weather Station (pws) KCATAHOE2",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "04c2f53b29ec5fba160de3be80d15db4",
+            "name": "Get Key Conditions Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the current conditions in San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "2eb839c7b68ab96019b90daa94adec70",
+            "name": "Get Key Astronomy Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/astronomy\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the Astronomy of San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "0fd1a2c8435e2342a3a26b162c2ad7db",
+            "name": "Get Key Forecast Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/forecast\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the 3 Day Forecast Summary for San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9b237107692b6a97d135c4e4843533c",
+            "name": "Get Key Almanac Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/almanac\/q\/{state}\/San_Francisco.json",
+            "description": "This example will return Today's Average Highs\/Lows and Record Highs\/Lows for San Francisco, California.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "8e6b178d2a1929f906a688a485374a06",
+            "name": "Get Key Conditions Forecast Lang Fr Q France Paris",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/forecast\/lang:FR\/q\/France\/Paris.json",
+            "description": "This example will return Current Conditions and a 3 day simple Forecast for Paris France in French. See documentation page for full list of language code options.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "country",
+                    "description": "The country",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "The language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "e581664e99b4996d5d20e3bb92cd11ef",
+            "name": "Get Key Conditions Forecast Lang Sp Q Spain Alicante",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/forecast\/lang:SP\/q\/Spain\/Alicante.json",
+            "description": "This example will return Current Conditions and a 3 day simple Forecast for Alicante, Spain in Spanish. See documentation page for full list of language code options.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "country",
+                    "description": "The country",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "The language",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "5e53dd4f9a903fd5f7d2d15f42d77d05",
+            "name": "Get Key Forecast10day Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/forecast10day\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the 10 Day Forecast Summary for San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "4d1b0d6862711d2347aeaee4343004e0",
+            "name": "Get Key Hourly Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/hourly\/q\/CA\/San_Francisco.json",
+            "description": "This example will return a detailed hourly forecast for the 'next' 36 hours in San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "525d7055fbb69782b0b03bdd03f6ed9c",
+            "name": "Get Key Satellite Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/satellite\/q\/CA\/San_Francisco.json",
+            "description": "This example will return URL's for satellite (visual and IR) images for San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "0c03b9d6e35edd5cd0c17494ab25e48a",
+            "name": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=0",
+            "description": "This example will return dynamic radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "height",
+                    "description": "The height",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "width",
+                    "description": "The width",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlon",
+                    "description": "Min longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlat",
+                    "description": "Min latitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlon",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlat",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "2e2eb598f55fc8c5c30dce2784c12696",
+            "name": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1",
+            "description": "This example will return dynamic radar image around Salt Lake City, UT with a Base Map background. See Docs for all the options for creating these images.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "height",
+                    "description": "The height",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "width",
+                    "description": "The width",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlon",
+                    "description": "Min longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlat",
+                    "description": "Min latitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlon",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlat",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "3bcce8f86b8b0d3ae180cd1dbc574839",
+            "name": "Get Key Alerts Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/alerts\/q\/{state}\/San_Francisco.json",
+            "description": "This example will return active severe alerts for San Francisco, California.    This request only works in the USA, Canada and Europe.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba0f0a35a7fc1e21d07e0f934fa06977",
+            "name": "Get Key Te Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/tide\/q\/CA\/San_Francisco.json",
+            "description": "This example will return 4 days of tides for San Francisco, California starting 'today'.    This request only works in the USA.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "21a948e50598c1cadda42bb2bdccbf6b",
+            "name": "Get Key Te 20160312 Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/tide_20160312\/q\/CA\/San_Francisco.json",
+            "description": "This example will return 4 days of tides for San Francisco, California following March 3 2012.    This request only works in the USA.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "aab8e26e1c38a787eb16a86ec327d9c2",
+            "name": "Get Key Rawte 20160312 Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/rawtide_20160312\/q\/CA\/San_Francisco.json",
+            "description": "This example will return raw tide data for San Francisco, California on March 3 2016.    This request only works in the USA.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "b80eb7bff2d6395fd9cb9108d5235bf8",
+            "name": "Get Key Hourly10day Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/hourly10day\/q\/CA\/San_Francisco.json",
+            "description": "This example will return a detailed hourly forecast for the next 10 days in San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b231f9bf98c87f0dd8a8479c1cdc21d",
+            "name": "Get Key Yesterday Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/yesterday\/q\/CA\/San_Francisco.json",
+            "description": "This example will return yesterday's weather in San Francisco, California.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0289dc8dc95e4d63a034cc7535d6f35",
+            "name": "Get Key Planner 10051031 Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/planner_10051031\/q\/CA\/San_Francisco.json",
+            "description": "This example will return a Historical roll up of weather data in San Francisco from Oct 5 to Oct 31. An example application: http:\/\/www.wunderground.com\/travelplanner\/index.asp",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "c40044ede5f3a434f71b7d8b8a7229f7",
+            "name": "Get Key Webcams Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/webcams\/q\/CA\/San_Francisco.json",
+            "description": "This example will return URL's to webcam images in San Francisco, California.    It will also return information about the webcam, including it's location in Lat,Long coordinates.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "0174c73e7eeb6a55f2d27f0d05606ad6",
+            "name": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/animatedradar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1",
+            "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a base map background. See Docs for all the options for creating these images.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "height",
+                    "description": "The height",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "width",
+                    "description": "The width",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlon",
+                    "description": "Min longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlat",
+                    "description": "Min latitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlon",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlat",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "7a8e7de30360e33a721a7a7ef32d7ee4",
+            "name": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/animatedradar\/image.gif",
+            "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "maxlat",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxlon",
+                    "description": "Max longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlat",
+                    "description": "Min latitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minlon",
+                    "description": "Min longitude",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "width",
+                    "description": "The width",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "height",
+                    "description": "The height",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "28a127cf9252ebc1403559e77527f82b",
+            "name": "Get Key History 20101018 Q Sfo",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/history_20101018\/q\/SFO.json",
+            "description": "This example will return historical data for San Francisco, California for the specified date.    If you search by zip or lat\/long you will get nearest airport.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "airport_code",
+                    "description": "The airport code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1d2d31256d5e522d8b47a15219a4090",
+            "name": "Get Key History 20101018 Q Pws Kcasanfr14",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/history_20101018\/q\/pws:KCASANFR14.json",
+            "description": "This example will return historical data for a Personal Weather Station for the specified date.    The feature only works with JSON.    XML will come out soon.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "34e2f3fa715d8cdc4fee954fb83fd24b",
+            "name": "Get Key Geolookup Conditions Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/conditions\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the geographical and current conditions for San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        },
+        {
+            "id": "85ccb87bbdea664bd78e1a0cfa3c3351",
+            "name": "Get Key Geolookup Conditions Forecast Q Ca San Francisco",
+            "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/conditions\/forecast\/q\/CA\/San_Francisco.json",
+            "description": "This example will return the geographical, current conditions and 3 day forecast summary for San Francisco, California",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "city",
+                    "description": "The city",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "state",
+                    "description": "The state",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "rawModeData": ""
+        }
+    ]
+}
