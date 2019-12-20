@@ -1,0 +1,693 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Weather Underground",
+        "description": "Get forecast and weather data with complete geolocation services, global coverage and more.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.wunderground.com\/api\/"
+    ],
+    "paths": {
+        "\/{key}\/geolookup\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q Ca San Francisco",
+                "description": "This example will return the geographic attributes of San Francisco CA.    Use {2 letter state code} \/    {City Name}",
+                "operationId": "GetUSAGeolocateExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/geolookup\/q\/France\/Paris.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q France Paris",
+                "description": "This example will return the geographic attributes of Paris, France. Use {Full Country Name} \/ {City Name}",
+                "operationId": "GetOutsideOfUSAGeolocateExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The country"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/geolookup\/q\/autoip.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q Autoip",
+                "description": "This example will return the geographic attributes associated with the IP address location of the user.",
+                "operationId": "GetIPAddressExample",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{key}\/geolookup\/q\/94107.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q 94107",
+                "description": "This example will return the geographic attributes of zip code 94107",
+                "operationId": "GetZIPGeolocateExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "zip_code",
+                        "in": "path",
+                        "description": "The zip code"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/geolookup\/q\/SFO.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q Sfo",
+                "description": "This example will return the geographic attributes of San Francisco International Airport (Airport Code: SFO)",
+                "operationId": "GetAirportGeolocateExample",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{key}\/geolookup\/q\/37.776289,-122.395234.json": {
+            "get": {
+                "summary": "Get Key Geolookup Q 37.776289, 122.395234",
+                "description": "This example will return the the geographic attributes of Latitude 37.776289 N, Longitude 122.395234 W",
+                "operationId": "GetLatLongGeolocateExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "path",
+                        "description": "The latitude"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "path",
+                        "description": "The longitude"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/conditions\/q\/pws:KCATAHOE2.json": {
+            "get": {
+                "summary": "Get Key Conditions Q Pws Kcatahoe2",
+                "description": "This example will return the the current weather conditions at the Personal Weather Station (pws) KCATAHOE2",
+                "operationId": "GetPwsExample",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{key}\/conditions\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Conditions Q Ca San Francisco",
+                "description": "This example will return the current conditions in San Francisco, California",
+                "operationId": "GetConditionsExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/astronomy\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Astronomy Q Ca San Francisco",
+                "description": "This example will return the Astronomy of San Francisco, California",
+                "operationId": "GetAstronomyExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/forecast\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Forecast Q Ca San Francisco",
+                "description": "This example will return the 3 Day Forecast Summary for San Francisco, California",
+                "operationId": "GetForecast3Example",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/almanac\/q\/{state}\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Almanac Q Ca San Francisco",
+                "description": "This example will return Today's Average Highs\/Lows and Record Highs\/Lows for San Francisco, California.",
+                "operationId": "GetAlmanacExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/conditions\/forecast\/lang:FR\/q\/France\/Paris.json": {
+            "get": {
+                "summary": "Get Key Conditions Forecast Lang Fr Q France Paris",
+                "description": "This example will return Current Conditions and a 3 day simple Forecast for Paris France in French. See documentation page for full list of language code options.",
+                "operationId": "GetFrenchExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The country"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "language",
+                        "in": "path",
+                        "description": "The language"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/conditions\/forecast\/lang:SP\/q\/Spain\/Alicante.json": {
+            "get": {
+                "summary": "Get Key Conditions Forecast Lang Sp Q Spain Alicante",
+                "description": "This example will return Current Conditions and a 3 day simple Forecast for Alicante, Spain in Spanish. See documentation page for full list of language code options.",
+                "operationId": "GetSpanishExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country",
+                        "in": "path",
+                        "description": "The country"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "language",
+                        "in": "path",
+                        "description": "The language"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/forecast10day\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Forecast10day Q Ca San Francisco",
+                "description": "This example will return the 10 Day Forecast Summary for San Francisco, California",
+                "operationId": "GetForecast10Example",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/hourly\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Hourly Q Ca San Francisco",
+                "description": "This example will return a detailed hourly forecast for the 'next' 36 hours in San Francisco, California",
+                "operationId": "GetOneDayHourlyExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/satellite\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Satellite Q Ca San Francisco",
+                "description": "This example will return URL's for satellite (visual and IR) images for San Francisco, California",
+                "operationId": "GetSatelliteExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=0": {
+            "get": {
+                "summary": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
+                "description": "This example will return dynamic radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
+                "operationId": "GetRadarExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "height",
+                        "in": "query",
+                        "description": "The height"
+                    },
+                    {
+                        "name": "width",
+                        "in": "query",
+                        "description": "The width"
+                    },
+                    {
+                        "name": "minlon",
+                        "in": "query",
+                        "description": "Min longitude"
+                    },
+                    {
+                        "name": "minlat",
+                        "in": "query",
+                        "description": "Min latitude"
+                    },
+                    {
+                        "name": "maxlon",
+                        "in": "query",
+                        "description": "Max longitude"
+                    },
+                    {
+                        "name": "maxlat",
+                        "in": "query",
+                        "description": "Max longitude"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1": {
+            "get": {
+                "summary": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
+                "description": "This example will return dynamic radar image around Salt Lake City, UT with a Base Map background. See Docs for all the options for creating these images.",
+                "operationId": "GetRadarExample2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "height",
+                        "in": "query",
+                        "description": "The height"
+                    },
+                    {
+                        "name": "width",
+                        "in": "query",
+                        "description": "The width"
+                    },
+                    {
+                        "name": "minlon",
+                        "in": "query",
+                        "description": "Min longitude"
+                    },
+                    {
+                        "name": "minlat",
+                        "in": "query",
+                        "description": "Min latitude"
+                    },
+                    {
+                        "name": "maxlon",
+                        "in": "query",
+                        "description": "Max longitude"
+                    },
+                    {
+                        "name": "maxlat",
+                        "in": "query",
+                        "description": "Max longitude"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/alerts\/q\/{state}\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Alerts Q Ca San Francisco",
+                "description": "This example will return active severe alerts for San Francisco, California.    This request only works in the USA, Canada and Europe.",
+                "operationId": "GetAlertsExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    },
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/tide\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Te Q Ca San Francisco",
+                "description": "This example will return 4 days of tides for San Francisco, California starting 'today'.    This request only works in the USA.",
+                "operationId": "GetTideExample1",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/tide_20160312\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Te 20160312 Q Ca San Francisco",
+                "description": "This example will return 4 days of tides for San Francisco, California following March 3 2012.    This request only works in the USA.",
+                "operationId": "GetTideExample2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/rawtide_20160312\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Rawte 20160312 Q Ca San Francisco",
+                "description": "This example will return raw tide data for San Francisco, California on March 3 2016.    This request only works in the USA.",
+                "operationId": "GetTideRAWExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/hourly10day\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Hourly10day Q Ca San Francisco",
+                "description": "This example will return a detailed hourly forecast for the next 10 days in San Francisco, California",
+                "operationId": "GetTenDayHourlyExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/yesterday\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Yesterday Q Ca San Francisco",
+                "description": "This example will return yesterday's weather in San Francisco, California.",
+                "operationId": "GetYesterdayExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/planner_10051031\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Planner 10051031 Q Ca San Francisco",
+                "description": "This example will return a Historical roll up of weather data in San Francisco from Oct 5 to Oct 31. An example application: http:\/\/www.wunderground.com\/travelplanner\/index.asp",
+                "operationId": "GetPlannerExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/webcams\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Webcams Q Ca San Francisco",
+                "description": "This example will return URL's to webcam images in San Francisco, California.    It will also return information about the webcam, including it's location in Lat,Long coordinates.",
+                "operationId": "GetCamsExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/animatedradar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1": {
+            "get": {
+                "summary": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
+                "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a base map background. See Docs for all the options for creating these images.",
+                "operationId": "GetRadarExample3",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "height",
+                        "in": "query",
+                        "description": "The height"
+                    },
+                    {
+                        "name": "width",
+                        "in": "query",
+                        "description": "The width"
+                    },
+                    {
+                        "name": "minlon",
+                        "in": "query",
+                        "description": "Min longitude"
+                    },
+                    {
+                        "name": "minlat",
+                        "in": "query",
+                        "description": "Min latitude"
+                    },
+                    {
+                        "name": "maxlon",
+                        "in": "query",
+                        "description": "Max longitude"
+                    },
+                    {
+                        "name": "maxlat",
+                        "in": "query",
+                        "description": "Max longitude"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/animatedradar\/image.gif": {
+            "get": {
+                "summary": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
+                "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
+                "operationId": "GetRadarExample4",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "maxlat",
+                        "in": "query",
+                        "description": "Max longitude"
+                    },
+                    {
+                        "name": "maxlon",
+                        "in": "query",
+                        "description": "Max longitude"
+                    },
+                    {
+                        "name": "minlat",
+                        "in": "query",
+                        "description": "Min latitude"
+                    },
+                    {
+                        "name": "minlon",
+                        "in": "query",
+                        "description": "Min longitude"
+                    },
+                    {
+                        "name": "width",
+                        "in": "query",
+                        "description": "The width"
+                    },
+                    {
+                        "name": "height",
+                        "in": "query",
+                        "description": "The height"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/history_20101018\/q\/SFO.json": {
+            "get": {
+                "summary": "Get Key History 20101018 Q Sfo",
+                "description": "This example will return historical data for San Francisco, California for the specified date.    If you search by zip or lat\/long you will get nearest airport.",
+                "operationId": "GetHistoryExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "airport_code",
+                        "in": "path",
+                        "description": "The airport code"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/history_20101018\/q\/pws:KCASANFR14.json": {
+            "get": {
+                "summary": "Get Key History 20101018 Q Pws Kcasanfr14",
+                "description": "This example will return historical data for a Personal Weather Station for the specified date.    The feature only works with JSON.    XML will come out soon.",
+                "operationId": "GetHistoryExamplePws",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/{key}\/geolookup\/conditions\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Geolookup Conditions Q Ca San Francisco",
+                "description": "This example will return the geographical and current conditions for San Francisco, California",
+                "operationId": "GetGeolocateCurrentExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        },
+        "\/{key}\/geolookup\/conditions\/forecast\/q\/CA\/San_Francisco.json": {
+            "get": {
+                "summary": "Get Key Geolookup Conditions Forecast Q Ca San Francisco",
+                "description": "This example will return the geographical, current conditions and 3 day forecast summary for San Francisco, California",
+                "operationId": "GetGeolocateCurrentForecastExample",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "The city"
+                    },
+                    {
+                        "name": "state",
+                        "in": "path",
+                        "description": "The state"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
