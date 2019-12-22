@@ -1,5 +1,5 @@
 {
-    "id": "75c212e0dfb1794efe1b7e87ffb1e613",
+    "id": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
     "name": "Weather Underground",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "241c0ce84782e5ff1296bb401e78c55e",
+            "id": "94a975f3f4b3506aa5bc04e48ac7d4b9",
             "name": "Get Key Geolookup Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/CA\/San_Francisco.json",
             "description": "This example will return the geographic attributes of San Francisco CA.    Use {2 letter state code} \/    {City Name}",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "8ba76349f6bb9eae5b73919f714b8ee3",
+            "id": "dd9ff2a9ff4e6798f8f4830d0e48d112",
             "name": "Get Key Geolookup Q France Paris",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/France\/Paris.json",
             "description": "This example will return the geographic attributes of Paris, France. Use {Full Country Name} \/ {City Name}",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "3095f76a71029bdaa459680dfa8005ed",
+            "id": "e23a1041c39f900fe6c57a5d3179c0d2",
             "name": "Get Key Geolookup Q Autoip",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/autoip.json",
             "description": "This example will return the geographic attributes associated with the IP address location of the user.",
@@ -105,11 +105,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "e9947aebadc00624d0acc2105b3c2123",
+            "id": "5a4a99ab139562a7c40afd6eb5d39354",
             "name": "Get Key Geolookup Q 94107",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/94107.json",
             "description": "This example will return the geographic attributes of zip code 94107",
@@ -136,11 +136,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "83b72cd21f7c00203005f947dfaf0f58",
+            "id": "4c3af7e629687c831b6ac4d910df0bcc",
             "name": "Get Key Geolookup Q Sfo",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/SFO.json",
             "description": "This example will return the geographic attributes of San Francisco International Airport (Airport Code: SFO)",
@@ -159,11 +159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "074aff711f3f6c73f4bfc645073d386b",
+            "id": "523828b9566e7176c859c920dc9f9031",
             "name": "Get Key Geolookup Q 37.776289, 122.395234",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/q\/37.776289,-122.395234.json",
             "description": "This example will return the the geographic attributes of Latitude 37.776289 N, Longitude 122.395234 W",
@@ -197,11 +197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "a26b8865c8f6043ba283978535d681dc",
+            "id": "6ffb7d46ac46bac7eccd9bf1fd7f96d9",
             "name": "Get Key Conditions Q Pws Kcatahoe2",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/q\/pws:KCATAHOE2.json",
             "description": "This example will return the the current weather conditions at the Personal Weather Station (pws) KCATAHOE2",
@@ -220,11 +220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "04c2f53b29ec5fba160de3be80d15db4",
+            "id": "1740870831f49ee9d8993ae5f7ff8b64",
             "name": "Get Key Conditions Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/q\/CA\/San_Francisco.json",
             "description": "This example will return the current conditions in San Francisco, California",
@@ -258,11 +258,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "2eb839c7b68ab96019b90daa94adec70",
+            "id": "255775d6f510f9d327b6d32bc4e7684b",
             "name": "Get Key Astronomy Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/astronomy\/q\/CA\/San_Francisco.json",
             "description": "This example will return the Astronomy of San Francisco, California",
@@ -296,11 +296,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "0fd1a2c8435e2342a3a26b162c2ad7db",
+            "id": "5bfde5449bbcf7a293412a4cc7b7aed6",
             "name": "Get Key Forecast Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/forecast\/q\/CA\/San_Francisco.json",
             "description": "This example will return the 3 Day Forecast Summary for San Francisco, California",
@@ -334,11 +334,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "d9b237107692b6a97d135c4e4843533c",
+            "id": "79f2380f4a00ba4759587a49465def54",
             "name": "Get Key Almanac Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/almanac\/q\/{state}\/San_Francisco.json",
             "description": "This example will return Today's Average Highs\/Lows and Record Highs\/Lows for San Francisco, California.",
@@ -372,11 +372,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "8e6b178d2a1929f906a688a485374a06",
+            "id": "de083709976c69b2c89f271345078ebf",
             "name": "Get Key Conditions Forecast Lang Fr Q France Paris",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/forecast\/lang:FR\/q\/France\/Paris.json",
             "description": "This example will return Current Conditions and a 3 day simple Forecast for Paris France in French. See documentation page for full list of language code options.",
@@ -417,11 +417,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "e581664e99b4996d5d20e3bb92cd11ef",
+            "id": "2113798a7191e5e5559cf7dea1a573be",
             "name": "Get Key Conditions Forecast Lang Sp Q Spain Alicante",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/conditions\/forecast\/lang:SP\/q\/Spain\/Alicante.json",
             "description": "This example will return Current Conditions and a 3 day simple Forecast for Alicante, Spain in Spanish. See documentation page for full list of language code options.",
@@ -462,11 +462,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "5e53dd4f9a903fd5f7d2d15f42d77d05",
+            "id": "3d36b5ff076e2bceb04fd55b6a8f5c4c",
             "name": "Get Key Forecast10day Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/forecast10day\/q\/CA\/San_Francisco.json",
             "description": "This example will return the 10 Day Forecast Summary for San Francisco, California",
@@ -500,11 +500,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "4d1b0d6862711d2347aeaee4343004e0",
+            "id": "44465607c2a362af526c950d62c84f7c",
             "name": "Get Key Hourly Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/hourly\/q\/CA\/San_Francisco.json",
             "description": "This example will return a detailed hourly forecast for the 'next' 36 hours in San Francisco, California",
@@ -538,11 +538,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "525d7055fbb69782b0b03bdd03f6ed9c",
+            "id": "a3b62c7d22a01c1105e8728f35231eb8",
             "name": "Get Key Satellite Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/satellite\/q\/CA\/San_Francisco.json",
             "description": "This example will return URL's for satellite (visual and IR) images for San Francisco, California",
@@ -576,11 +576,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "0c03b9d6e35edd5cd0c17494ab25e48a",
+            "id": "c222e51f5e50a6a0c105fc61641fa6ed",
             "name": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=0",
             "description": "This example will return dynamic radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
@@ -642,11 +642,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "2e2eb598f55fc8c5c30dce2784c12696",
+            "id": "69f82ae4130ef6fb8d9fe37aed364ea0",
             "name": "Get Key Radar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/radar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1",
             "description": "This example will return dynamic radar image around Salt Lake City, UT with a Base Map background. See Docs for all the options for creating these images.",
@@ -708,11 +708,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "3bcce8f86b8b0d3ae180cd1dbc574839",
+            "id": "79355eac3468f05a14231d43e5d9049a",
             "name": "Get Key Alerts Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/alerts\/q\/{state}\/San_Francisco.json",
             "description": "This example will return active severe alerts for San Francisco, California.    This request only works in the USA, Canada and Europe.",
@@ -746,11 +746,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "ba0f0a35a7fc1e21d07e0f934fa06977",
+            "id": "0d0017b7958080f3fc2b5c3593a5aca5",
             "name": "Get Key Te Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/tide\/q\/CA\/San_Francisco.json",
             "description": "This example will return 4 days of tides for San Francisco, California starting 'today'.    This request only works in the USA.",
@@ -784,11 +784,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "21a948e50598c1cadda42bb2bdccbf6b",
+            "id": "e4456c8363fa4229fb26ad64922a13cc",
             "name": "Get Key Te 20160312 Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/tide_20160312\/q\/CA\/San_Francisco.json",
             "description": "This example will return 4 days of tides for San Francisco, California following March 3 2012.    This request only works in the USA.",
@@ -822,11 +822,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "aab8e26e1c38a787eb16a86ec327d9c2",
+            "id": "ae9148483b1754ea933db9a22a36cf5c",
             "name": "Get Key Rawte 20160312 Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/rawtide_20160312\/q\/CA\/San_Francisco.json",
             "description": "This example will return raw tide data for San Francisco, California on March 3 2016.    This request only works in the USA.",
@@ -860,11 +860,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "b80eb7bff2d6395fd9cb9108d5235bf8",
+            "id": "2d8a955efe34019f7d7264a7003755ef",
             "name": "Get Key Hourly10day Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/hourly10day\/q\/CA\/San_Francisco.json",
             "description": "This example will return a detailed hourly forecast for the next 10 days in San Francisco, California",
@@ -898,11 +898,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "2b231f9bf98c87f0dd8a8479c1cdc21d",
+            "id": "f6edd160e1d1b880cdb8e4de2e82359a",
             "name": "Get Key Yesterday Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/yesterday\/q\/CA\/San_Francisco.json",
             "description": "This example will return yesterday's weather in San Francisco, California.",
@@ -936,11 +936,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "a0289dc8dc95e4d63a034cc7535d6f35",
+            "id": "c5ce62c6c9eb5f2d9c344006e3d3e736",
             "name": "Get Key Planner 10051031 Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/planner_10051031\/q\/CA\/San_Francisco.json",
             "description": "This example will return a Historical roll up of weather data in San Francisco from Oct 5 to Oct 31. An example application: http:\/\/www.wunderground.com\/travelplanner\/index.asp",
@@ -974,11 +974,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "c40044ede5f3a434f71b7d8b8a7229f7",
+            "id": "a28d4506bfdc7bd6b1bea9fb2e6955a9",
             "name": "Get Key Webcams Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/webcams\/q\/CA\/San_Francisco.json",
             "description": "This example will return URL's to webcam images in San Francisco, California.    It will also return information about the webcam, including it's location in Lat,Long coordinates.",
@@ -1012,11 +1012,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "0174c73e7eeb6a55f2d27f0d05606ad6",
+            "id": "199194c314acd64d9add59b3923d45b4",
             "name": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 1",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/animatedradar\/image.gif?maxlat=42.35%26maxlon=-109.311%26minlat=39.27%26minlon=-114.644%26width=600%26height=480%26newmaps=1",
             "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a base map background. See Docs for all the options for creating these images.",
@@ -1078,11 +1078,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "7a8e7de30360e33a721a7a7ef32d7ee4",
+            "id": "c1c68bcdf75867542b862924fbad3efa",
             "name": "Get Key Animatedradar Image.gif Maxlat 42.35%26maxlon 109.311%26minlat 39.27%26minlon 114.644%26wth 600%26height 480%26newmaps 0",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/animatedradar\/image.gif",
             "description": "This example will return dynamic animated radar image around Salt Lake City, UT with a transparent background. See Docs for all the options for creating these images.",
@@ -1144,11 +1144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "28a127cf9252ebc1403559e77527f82b",
+            "id": "bbbc79da8a00a1e25ce1023d0a87f003",
             "name": "Get Key History 20101018 Q Sfo",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/history_20101018\/q\/SFO.json",
             "description": "This example will return historical data for San Francisco, California for the specified date.    If you search by zip or lat\/long you will get nearest airport.",
@@ -1175,11 +1175,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "b1d2d31256d5e522d8b47a15219a4090",
+            "id": "8e30469bd759c131c264e18f7af752ca",
             "name": "Get Key History 20101018 Q Pws Kcasanfr14",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/history_20101018\/q\/pws:KCASANFR14.json",
             "description": "This example will return historical data for a Personal Weather Station for the specified date.    The feature only works with JSON.    XML will come out soon.",
@@ -1198,11 +1198,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "34e2f3fa715d8cdc4fee954fb83fd24b",
+            "id": "df76e31a55739d6975ee9a01fad67721",
             "name": "Get Key Geolookup Conditions Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/conditions\/q\/CA\/San_Francisco.json",
             "description": "This example will return the geographical and current conditions for San Francisco, California",
@@ -1236,11 +1236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         },
         {
-            "id": "85ccb87bbdea664bd78e1a0cfa3c3351",
+            "id": "1e98f9dc5741aacf83d7f3d8cb4cdba2",
             "name": "Get Key Geolookup Conditions Forecast Q Ca San Francisco",
             "url": "httpsapi.wunderground.com\/api\/\/{key}\/geolookup\/conditions\/forecast\/q\/CA\/San_Francisco.json",
             "description": "This example will return the geographical, current conditions and 3 day forecast summary for San Francisco, California",
@@ -1274,7 +1274,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "75c212e0dfb1794efe1b7e87ffb1e613",
+            "collectionId": "0775c18cb9b7a9bd0a0a92bdc2ca5804",
             "rawModeData": ""
         }
     ]
